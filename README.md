@@ -1,5 +1,7 @@
 # add-led-brightless-to-graph-lcd-3d-printer
 add led brightless to reprap discount graph lcd 64x128 3d printer
+
+```c
 /*add this part in pins.h line:770*/
  #ifdef REPRAP_DISCOUNT_SMART_CONTROLLER
     #define BEEPER -1 
